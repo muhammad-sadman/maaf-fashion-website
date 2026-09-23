@@ -2,6 +2,9 @@ import PageHero from "@/components/PageHero";
 import { getCategories, getProducts } from "@/lib/api";
 import ProductsExplorer from "./ProductsExplorer";
 
+export const revalidate = 60;
+
+
 export const metadata = {
   title: "Products | Maaf Fashion",
   description: "Browse the Maaf Fashion catalogue by category: Men's, Women's, Kids', and Baby wear.",
