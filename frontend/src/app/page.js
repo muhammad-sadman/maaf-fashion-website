@@ -5,6 +5,10 @@ import CertificationStrip from "@/components/CertificationStrip";
 import StitchDivider from "@/components/StitchDivider";
 import KnitPattern from "@/components/KnitPattern";
 
+
+export const revalidate = 60;
+
+
 export default async function HomePage() {
   const [stats, certifications] = await Promise.all([getStats(), getCertifications()]);
 
