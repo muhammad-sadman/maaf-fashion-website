@@ -4,7 +4,6 @@ import GalleryExplorer from "./GalleryExplorer";
 
 export const revalidate = 60;
 
-
 export const metadata = {
   title: "Gallery | Maaf Fashion",
   description: "Visual proof of Maaf Fashion's infrastructure, manufacturing process, and worker welfare facilities.",
