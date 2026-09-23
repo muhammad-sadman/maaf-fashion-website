@@ -2,6 +2,9 @@ import PageHero from "@/components/PageHero";
 import CertificationStrip from "@/components/CertificationStrip";
 import { getCertifications } from "@/lib/api";
 
+export const revalidate = 60;
+
+
 export const metadata = {
   title: "Compliance & Safety | Maaf Fashion",
   description: "Certifications, fire safety systems, and worker welfare initiatives at Maaf Fashion.",
