@@ -2,6 +2,8 @@ import PageHero from "@/components/PageHero";
 import { getDepartments } from "@/lib/api";
 import { mediaUrl } from "@/lib/api";
 
+export const revalidate = 60;
+
 export const metadata = {
   title: "Manufacturing Capacity | Maaf Fashion",
   description: "Departmental breakdown of Knitting, Dyeing, and Printing & Embroidery capacity at Maaf Fashion.",
