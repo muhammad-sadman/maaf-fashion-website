@@ -1,6 +1,8 @@
 import PageHero from "@/components/PageHero";
 import { getAboutImages, groupAboutImagesBySection, mediaUrl } from "@/lib/api";
 
+export const revalidate = 60;
+
 export const metadata = {
   title: "About Us | Maaf Fashion",
   description: "Company history, credentials, quality control process, and employee welfare at Maaf Fashion.",
