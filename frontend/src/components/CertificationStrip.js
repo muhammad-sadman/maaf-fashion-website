@@ -9,13 +9,10 @@ export default function CertificationStrip({ certifications, variant = "strip" }
         {certifications.map((cert) => (
           <div
             key={cert.id}
-            className="bg-white border border-line rounded-sm p-5 flex flex-col items-start gap-2 hover:border-gold-500 transition-colors"
+            className="bg-white border border-line rounded-sm p-6 flex flex-col items-center justify-center gap-3 text-center hover:border-gold-500 transition-colors"
           >
-            <CertBadge cert={cert} />
+            <CertBadge cert={cert} large />
             <h3 className="font-display text-base font-medium text-ink">{cert.name}</h3>
-            {cert.description && (
-              <p className="text-sm text-slate-600">{cert.description}</p>
-            )}
           </div>
         ))}
       </div>
@@ -34,12 +31,19 @@ export default function CertificationStrip({ certifications, variant = "strip" }
   );
 }
 
-function CertBadge({ cert, small = false }) {
+function CertBadge({ cert, small = false, large = false }) {
   const logo = mediaUrl(cert.logo);
-  const size = small ? 28 : 40;
+  const size = small ? 28 : large ? 72 : 40;
   if (logo) {
     // eslint-disable-next-line @next/next/no-img-element
-    return <img src={logo} alt={cert.name} width={size} height={size} className="object-contain" />;
+    return (
+      <img
+        src={logo}
+        alt={cert.name}
+        style={{ maxWidth: size, maxHeight: size }}
+        className="object-contain"
+      />
+    );
   }
   return (
     <div
