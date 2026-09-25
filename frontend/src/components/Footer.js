@@ -52,16 +52,16 @@ export default function Footer() {
             Get in touch
           </h3>
           <ul className="space-y-2.5 text-sm">
-            <li>Factory Address: South Debipur (Ranigonj), Ghoraghat, Dinajpur, (post code- 5290), Bangladesh.</li>
             <li>Corporate Address: Plot #111 (8th Floor), Ranavola Avenue, Road #13, Sector #10, Uttara, Dhaka-1230</li>
+            <li>Factory Address: South Debipur (Ranigonj), Ghoraghat, Dinajpur, (post code- 5290), Bangladesh.</li>
             <li>
               <a href="tel:+880177-7304871" className="hover:text-gold-400">
-                +880177-7304871
+                Phone: +8801777304871
               </a>
             </li>
             <li>
               <a href="mailto:sales@maaffashion.com" className="hover:text-gold-400">
-                contact@maaffashion.com
+                Email: sales@maafcraft.com
               </a>
             </li>
           </ul>
