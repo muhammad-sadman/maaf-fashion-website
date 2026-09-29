@@ -9,7 +9,7 @@ export const metadata = {
 };
 
 const CREDENTIALS = [
-  { label: "Founded", value: "2011" },
+  { label: "Founded", value: "2022" },
   { label: "Legal Status", value: "Private Limited Company" },
   { label: "Business Type", value: "Manufacturer & Exporter" },
   { label: "Registered Office", value: "Dhaka, Bangladesh" },
@@ -30,7 +30,7 @@ export default async function AboutPage() {
     <>
       <PageHero
         eyebrow="About Maaf Fashion"
-        title="Fifteen years of production discipline, built for buyers who verify."
+        title="Four years of production discipline, built for buyers who verify."
         description="From a single knitting line to a vertically integrated export house — our story is one of reinvesting in capacity, compliance, and people."
       />
 
