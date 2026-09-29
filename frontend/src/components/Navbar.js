@@ -21,8 +21,10 @@ export default function Navbar() {
       <div className="container-page flex items-center justify-between h-16 md:h-20">
         <Link href="/" className="flex items-center gap-2 group">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.png" alt="Maaf Fashion" className="h-12 md:h-16 w-auto" />
-          <span className="font-display text-xl md:text-2xl font-semibold text-white tracking-tight">
+          <div className="h-12 md:h-16 w-28 md:w-36 flex items-center justify-center overflow-hidden">
+  <img src="/logo.png" alt="Maaf Fashion" className="h-full w-full object-contain" />
+</div>
+<span className="font-display text-xl md:text-2xl font-semibold text-white tracking-tight">
             MAAF <span className="text-gold-400">FASHION</span>
           </span>
         </Link>
@@ -97,98 +99,3 @@ export default function Navbar() {
     </header>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
