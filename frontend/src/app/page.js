@@ -28,8 +28,8 @@ export default async function HomePage() {
               Built stitch by stitch for buyers who audit before they order.
             </h1>
             <p className="mt-6 text-white/70 text-lg max-w-xl leading-relaxed">
-              Maaf Fashion knits, dyes, prints, and finishes apparel under one
-              roof in Dhaka — with the certifications, capacity data, and
+              Maaf Fashion facility features an in house knitting department 
+              in Dhaka — with the certifications, capacity data, and
               compliance record international sourcing teams need to see
               before the first sample ships.
             </p>
