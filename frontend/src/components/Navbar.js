@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="container-page flex items-center justify-between h-16 md:h-20">
         <Link href="/" className="flex items-center gap-2 group">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.png" alt="Maaf Fashion" className="h-8 md:h-10 w-auto" />
+          <img src="/logo.png" alt="Maaf Fashion" className="h-12 md:h-16 w-auto" />
           <span className="font-display text-xl md:text-2xl font-semibold text-white tracking-tight">
             MAAF <span className="text-gold-400">FASHION</span>
           </span>
